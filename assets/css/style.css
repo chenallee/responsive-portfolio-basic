@@ -5,11 +5,14 @@ body {
   min-height: 100vh;
   margin: 0;
 
-  background-color: lightgrey;
+  background-image: url("../images/memphis-mini.png");
 }
 
 footer {
   margin-top: auto;
+
+  /* no border width in bootstrap */
+  border-top: 7px #17a2b8 solid;
 }
 
 
