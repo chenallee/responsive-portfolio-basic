@@ -15,7 +15,21 @@ footer {
   border-top: 7px #17a2b8 solid;
 }
 
+a {
+  color: #17a2b8!important;
+}
 
+a:active {
+  color: #6c757d!important;
+}
+
+.nav-link:hover {
+  color: #17a2b8!important;
+}
+
+.nav-link:active{
+  color: white!important;
+}
 
 .card {
   background-position: bottom;
