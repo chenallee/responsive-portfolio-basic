@@ -14,6 +14,32 @@ footer {
 
 
 
+.card {
+  background-position: bottom;
+  background-size: cover;
+  min-height: 250px;
+}
+ #hangman{
+   background-image: url("../images/laptop-glasses.jpg");
+
+ }
+
+ #rpg{
+   background-image: url("../images/laptop-icons.jpg");
+ }
+
+ #trivia{
+   background-image: url("../images/laptop-notes.jpg");
+ }
+
+ #widget{
+   background-image: url("../images/laptop-phone.jpg");
+ }
+
+ #scissors{
+   background-image: url("../images/laptop-touchscreen.jpg");
+ }
+
   @media screen and (min-width: 576px) {
     .about-img{
       width: 50%;
