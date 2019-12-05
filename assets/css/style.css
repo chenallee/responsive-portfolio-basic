@@ -6,6 +6,8 @@ body {
   margin: 0;
 
   background-image: url("../images/memphis-mini.png");
+
+  font-family: 'Montserrat', sans-serif;
 }
 
 footer {
@@ -13,6 +15,10 @@ footer {
 
   /* no border width in bootstrap */
   border-top: 7px #17a2b8 solid;
+}
+
+h1, h2, h3 {
+  font-family: 'Martel Sans', sans-serif;
 }
 
 a {
@@ -30,32 +36,6 @@ a:active {
 .nav-link:active{
   color: white!important;
 }
-
-.card {
-  background-position: bottom;
-  background-size: cover;
-  min-height: 250px;
-}
- #hangman{
-   background-image: url("../images/laptop-glasses.jpg");
-
- }
-
- #rpg{
-   background-image: url("../images/laptop-icons.jpg");
- }
-
- #trivia{
-   background-image: url("../images/laptop-notes.jpg");
- }
-
- #widget{
-   background-image: url("../images/laptop-phone.jpg");
- }
-
- #scissors{
-   background-image: url("../images/laptop-touchscreen.jpg");
- }
 
   @media screen and (min-width: 576px) {
     .about-img{
